@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calender.css">
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="profile_d.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="new.js"></script>
+</head>
+<body>
+    <div class="sidebar close">
+      <div class="logo-details">
+        <i class="bx bxs-store"></i>
+        <span class="logo_name">f@ShiON</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <div class="iocn-link">
+            <a href="/dash board/Dashboard.html">
+              <i class="bx bx-grid-alt"></i>
+              <span class="link_name">Home</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="/dash board/Dashboard.html">Home</a></li>
+            <li><a href="/dash board/Dashboard.html">Dashboard</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class="bx bx-collection"></i>
+              <span class="link_name">About</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">About</a></li>
+            <li><a href="/rules/rar.html">Rules And Regulation</a></li>
+            <li><a href="/human/human.html"> Human Resources</a></li>
+            <li><a href="/calender/calender.html">Calender</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="/product/product.html">
+            <i class="bx bxs-cart-add"></i>
+            <span class="link_name">Product</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="/product/product.html">product</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class="bx bx-pie-chart-alt-2"></i>
+              <span class="link_name">Staff Service</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Staff Service</a></li>
+            <li><a href="/application/leave.html">Leave Application</a></li>
+            <li>
+              <a href="/promotion/promotion.html">Promotion And Resignation</a>
+            </li>
+            <li><a href="/complain/complaint.html"> Complaint form</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/publication/pub.html">
+            <i class="bx bx-line-chart-down"></i>
+            <span class="link_name">Publication</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li>
+              <a class="link_name" href="/publication/pub.html">Publication</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="/dash board/b.jpg" alt="profileImg" />
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Pema</div>
+              <div class="job">Web Desginer</div>
+            </div>
+            <a class="bx bx-log-out" href="index.html"></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+        <div class="home-content">
+            <i class="bx bx-menu"></i>
+            <span class="text"></span>
+            <div class="wrapper">
+                <div class="navbar">
+                    <div class="navbar_left">
+                        <div class="logo">
+                            <a href="#">f@ShiON</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row " style="margin-left : 10vh">
+                <div class="bg-dark rounded text-warning">
+                        <h1 class="text-center">User Profile</h1>
+                        <div class="row mt-4">
+                            <div class="col-md-5 col-sm-12 ps-4">
+                                <h2 class="text-light">User Details</h2>
+                                <div class="card" style="width:20rem;">
+                                    <img  src="https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg" alt="profile">
+                                    <div class="card-body text-dark">
+                                        <h3 class="card-title">Pema</h3>
+                                        <h3 class="card-text">Staff ID: 12220051</h3>
+                                        <h3 class="card-text">Software Developer</h3>
+                                        <h3 class="card-text">Division: IT Department</h3>
+                                        <h3 class="card-text">Status: In Service</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-12">
+                                <section id="questions"class="col-lg-12 bg-dark rounded pb-4">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-12 text-light">
+                                                <h2 class="text-center text-light mb-4">
+                                                    Personal Details
+                                                </h2>
+                                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                Staff Data
+                            
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body table-responsive">
+                                                                <table class="table table-striped text-dark">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <td>Date of Birth:</td>
+                                                                            <td>2002-06-04</td>
+                                                                            <td>Gender:</td>
+                                                                            <td>Male</td>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr class="text-dark text-bold">
+                                                                            <td>Joining Date:</td>
+                                                                            <td>2020-04-13</td>
+                                                                            <td>Nationality:</td>
+                                                                            <td>Bhutanese</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingTwo">
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                                Contact Details
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body table-responsive">
+                                                                <table class="table table-striped">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <td>E-mail:</td>
+                                                                            <td>11603002276pema@gmail.com</td><br>
+                                                                            <td>Phone Number:</td>
+                                                                            <td>77613854</td>
+                                                                        </tr>
+                                                                    </thead>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingThree">
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                                Medical Details
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body table-responsive">
+                                                                <table class="table table-striped">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <td>Blood Group:</td>
+                                                                            <td>O+</td>
+                                                                            <td>Health Status:</td>
+                                                                            <td>Healthy</td>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>Medical Issues:</td>
+                                                                            <td>--</td>
+                                                                            <td>Remarks:</td>
+                                                                            <td>--</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="question"class="col-lg-12 bg-dark pb-4">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-12 text-light">
+                                                <h2 class="text-center mb-4">
+                                                    Other Activities
+                                                </h2>
+                                                <div class="accordion accordion-flush" id="otherActivities">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="activity-one">
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-activity-one" aria-expanded="false" aria-controls="flush-activity-one">
+                                                                Special Responsibility
+                            
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-activity-one" class="accordion-collapse collapse" aria-labelledby="activity-one" data-bs-parent="#otherActivities">
+                                                            <div class="accordion-body table-responsive">
+                                                                <table class="table table-striped text-dark">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>SL.No</th>
+                                                                            <th>Responsibility Name</th>
+                                                                            <td>Start Date</td>
+                                                                            <td>End Date</td>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr class="text-dark text-bold">
+                                                                            <td>1</td>
+                                                                            <td></td>
+                                                                            <td></td>
+                                                                            <td></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="activity-two">
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-activity-two" aria-expanded="false" aria-controls="flush-activity-two">
+                                                                Achievements
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-activity-two" class="accordion-collapse collapse" aria-labelledby="activity-two" data-bs-parent="#otherActivities">
+                                                            <div class="accordion-body table-responsive">
+                                                                <table class="table table-striped">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>SL.No</th>
+                                                                            <th>Achievements</th>
+                                                                            <th>Remarks</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>1</td>
+                                                                            <td></td>
+                                                                            <td></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="activity-three">
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-activity-three" aria-expanded="false" aria-controls="flush-activity-three">
+                                                                Contribution
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-activity-three" class="accordion-collapse collapse" aria-labelledby="activity-three" data-bs-parent="#accordionFlushExample">
+                                                            <div class="accordion-body table-responsive">
+                                                                <table class="table table-striped">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>SL.No</th>
+                                                                            <th>Contribution Type</th>
+                                                                            <th>Date</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td></td>
+                                                                            <td>--</td>
+                                                                            <td></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mx-3">
+                        <div class="row">
+                            <section id="questions"class="col-md-12 bg-dark rounded pb-4">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12 text-dark">
+                                            <h2 class="text-center text-light mb-4">
+                                                Qualifications
+                                            </h2>
+                                            <div class="accordion accordion-flush" id="qualificationAccordion">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header text-light" id="qualification-one">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-qualification-one" aria-expanded="false" aria-controls="flush-qualification-one">
+                                                            Educations
+                        
+                                                        </button>
+                                                    </h2>
+                                                    <div id="flush-qualification-one" class="accordion-collapse collapse" aria-labelledby="qualification-one" data-bs-parent="#qualificationAccordion">
+                                                        <div class="accordion-body">
+                                                            <div class="masters">
+                                                                <h6>Indian Institute of Technology <br>
+                                                                    India <br>
+                                                                    2012-2016
+                                                                </h6><span>Master in Web Develop</span>
+                                                            </div>
+                                                            <hr>
+                                                            <div class="bachelor">
+                                                                <h6>Gyalpozhing College of Information Technology<br>
+                                                                    Bhutan <br>
+                                                                    2008-2012
+                                                                </h6><span style="display:inline;">Bachelor in Graphic Design</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header text-light" id="experience-one">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-experience-one" aria-expanded="false" aria-controls="flush-experience-one">
+                                                            Experiences
+                                                        </button>
+                                                    </h2>
+                                                    <div id="flush-experience-one" class="accordion-collapse collapse" aria-labelledby="experience-one" data-bs-parent="#qualificationAccordion">
+                                                        <div class="accordion-body">
+                                                            <div class="one">
+                                                                <h6>Software Developer <br>
+                                                                Amazon <br>
+                                                                2018-2021</h6>
+                                                            </div>
+                                                            <div class="two">
+                                                                <h6>Software Developer <br>
+                                                                    Microsoft <br>
+                                                                    2017-2018
+                                                                </h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+        </div>
+    </section>
+    
+            
+       
+</body>
+<script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+          let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+          arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.
+        bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LR
+        n5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+
+</html>

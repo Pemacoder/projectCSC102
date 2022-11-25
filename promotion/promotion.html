@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="promotion.css">
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="new.js"></script>
+</head>
+<body>
+    <div class="sidebar close">
+      <div class="logo-details">
+        <i class="bx bxs-store"></i>
+        <span class="logo_name">f@ShiON</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <div class="iocn-link">
+            <a href="/dash board/Dashboard.html">
+              <i class="bx bx-grid-alt"></i>
+              <span class="link_name">Home</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="/dash board/Dashboard.html">Home</a></li>
+            <li><a href="/dash board/Dashboard.html">Dashboard</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class="bx bx-collection"></i>
+              <span class="link_name">About</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">About</a></li>
+            <li><a href="/rules/rar.html">Rules And Regulation</a></li>
+            <li><a href="/human/human.html"> Human Resources</a></li>
+            <li><a href="/calender/calender.html">Calender</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="/product/product.html">
+            <i class="bx bxs-cart-add"></i>
+            <span class="link_name">Product</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="/product/product.html">product</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class="bx bx-pie-chart-alt-2"></i>
+              <span class="link_name">Staff Service</span>
+            </a>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Staff Service</a></li>
+            <li><a href="/application/leave.html">Leave Application</a></li>
+            <li>
+              <a href="/promotion/promotion.html">Promotion And Resignation</a>
+            </li>
+            <li><a href="/complain/complaint.html"> Complaint form</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="/publication/pub.html">
+            <i class="bx bx-line-chart-down"></i>
+            <span class="link_name">Publication</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li>
+              <a class="link_name" href="/publication/pub.html">Publication</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="/dash board/b.jpg" alt="profileImg" />
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Pema</div>
+              <div class="job">Web Desginer</div>
+            </div>
+            <a class="bx bx-log-out" href="index.html"></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="home-content">
+        <i class="bx bx-menu"></i>
+        <span class="text"></span>
+        <div class="wrapper">
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-lg-9 border border-dark">
+        <div class="container">
+          <h1 class="text-dark text-center text-uppercase my-4">
+            Employee Promotion Form
+          </h1>
+          <form action="#">
+            <div class="container mt-3 border border-secondary promotion">
+              <label class="mt-5" for="name">Name:</label>
+              <input type="text" id="name" /><br />
+              <label class="pt-4" for="id">Staff ID:</label>
+              <input type="text" id="id" /><br />
+              <label class="pt-4" for="position">Position Title:</label>
+              <input type="text" id="position" /><br />
+              <label class="pt-4" for="lastDate">Last Date of Promotion</label>
+              <input type="text" id="lastDate" /><br />
+              <label class="pt-4" for="address">Working Address:</label>
+              <input type="text" id="address" /><br />
+              <label class="pt-4" for="contact">Contact No:</label>
+              <input type="text" id="contact" /><br />
+              <label class="pt-4" for="email">Email</label>
+              <input class="mb-5" type="email" id="email" />
+            </div>
+            <div class="container mt-5 border border-secondary">
+              <h2 class="text-dark py-3">Promotion Applied for:</h2>
+              <label for="ptitle">Position Title:</label>
+              <input class="mb-5" type="text" id="ptitle" />
+            </div>
+            <div class="container my-5 border border-secondary">
+              <h1 class="text-dark py-3">Affirmation:</h1>
+              <p class="text-dark">
+                I affirm that all the information that I have provided in this
+                form are true, correct and complete. I shall be held responsible
+                and accountable for any issues pertaining to promotion arising
+                from any untrue, incorrect and incomplete information. I have
+                also read and understood the promotion notification issued by
+                the company dated 1st October 2019.
+              </p>
+            </div>
+          </form>
+          <button type="submit" class="btn btn-secondary">Submit</button>
+        </div>
+        <div class="container table-responsive mt-5">
+          <h1>Promotion List</h1>
+          <table class="table my-4">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Promotion Title</th>
+                <th>Status</th>
+                <th>Date</th>
+                <th>Remarks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mr.Novin Rai</td>
+                <td>Head of Sales Department</td>
+                <td>To be promoted</td>
+                <td>01/12/2022</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Mr.Pema</td>
+                <td>Manager</td>
+                <td>Promoted</td>
+                <td>18/11/2022</td>
+                <td>--</td>
+              </tr>
+              <tr>
+                <td>Mr.Chime Gyeltshen Dorji</td>
+                <td>Head of software developer</td>
+                <td>Cancelled</td>
+                <td>18/10/2022</td>
+                <td>--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="container mt-4">
+          <h1>Resignation Form</h1>
+          <hr />
+          <form action="#">
+            <label class="pt-3" for="name">Name:</label>
+            <input type="text" id="name" /><br />
+            <label class="pt-3" for="email">Email:</label>
+            <input type="email" id="email" /><br />
+            <label class="pt-3" for="id">Staff ID:</label>
+            <input type="text" id="id" /><br />
+            <label class="pt-3" for="date"
+              >I hereby tender my resignation as an employee of shoe company to
+              be effective on:</label
+            >
+            <input type="date" id="date" /><br />
+            <label class="pt-3" for="post">My last assigned post was:</label>
+            <input type="text" id="post" /><br />
+            <label class="pt-3" for="reason">I am resigning because:</label
+            ><br />
+            <input type="checkbox" id="mutual" name="mutual" />
+            <label class="pt-3" for="mutual"
+              >Mutual Agreement (not protestable)</label
+            ><br />
+            <input type="checkbox" id="other-job" name="otherJob" />
+            <label class="pt-3" for="other-job"
+              >Accepted another or better job</label
+            ><br />
+            <input type="checkbox" id="personal" name="personal" />
+            <label class="pt-3" for="personal">Personal</label><br />
+            <input type="checkbox" id="dissatisfy" name="dissatisfy" />
+            <label class="pt-3" for="dissatisfy">Dissatisfy</label><br />
+            <input type="checkbox" id="shifted" name="shifted" />
+            <label class="py-3" for="shifted">Moved from area</label><br />
+          </form>
+          <button type="submit" class="btn btn-secondary mb-5">Submit</button>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+</body>
+<script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+          let arrowParent = e.target.parentElement.parentElement; //selecting main parent of arrow
+          arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+      });
+    </script>
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.
+    bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LR
+    n5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+</html>
